@@ -1,0 +1,27 @@
+{
+  "name": "a-garcia13.github.io",
+  "version": "1.0.0",
+  "description": "CV For Alejandro Garcia Flores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-garcia13/a-garcia13.github.io.git"
+  },
+  "keywords": [
+    "CV"
+  ],
+  "author": "Alejandro Garcia Flores",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-garcia13/a-garcia13.github.io/issues"
+  },
+  "homepage": "https://github.com/a-garcia13/a-garcia13.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  }
+}
