@@ -8,3 +8,7 @@ body {
     background: url(https://github.com/a-garcia13/a-garcia13.github.io/blob/master/assets/bogota-skyline.jpg?raw=true) center center no-repeat;
     background-size: cover;
   }
+  h1 {
+      color: white;
+      text-shadow: 2px 2px black;
+  }
