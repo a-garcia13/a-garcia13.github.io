@@ -16,105 +16,57 @@ h1 {
     text-shadow: 2px 2px black;
 }
 
-.fa-facebook {
-    color: #3b5998;
+footer{
+	background-color:#222222;
+    padding: 60px 0px;
 }
 
-.fa-linkedin {
-    color: #0077B5;
+footer ul{
+    list-style:none;
+    margin:0 auto;
+    display:inline-block;
+    padding-top:50px;
 }
 
-.fa-twitter {
-    color: #4099FF;
+footer ul li{
+    float:left;
 }
 
-.fa-google {
-    color: #d34836;
+footer ul li a{
+	color:#b1aca1;
+    padding:20px;
 }
 
-.bg-primary {
-    background-color: #000 !important;
+footer ul li a:hover{
+	color:#7dabdb;
+	text-decoration:none;
 }
 
-.bg-circle {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    padding: 14px 4px;
-    color: #ececec;
-    text-align: center;
-    border-radius: 50%;
+.footer-top{
+	padding-bottom:50px;
 }
 
-.bg-circle-outline {
-    width: 50px;
-    height: 50px;
-    color: smoke;
-    padding: 8px 2px;
-    border: 2px solid;
-    border-color: smoke;
-    border-radius: 50%;
+.footer-top .fa{
+    font-size:18px;
+    color: #FFF;
+    padding-right:10px;
 }
 
-
-.bg-circle a,
-a:hover,
-.media a:focus {
-    text-decoration: none !important;
-    outline: none;
-    color: #ececec;
+.footer-top a{
+    color:#FFF;
+    text-decoration:none;
 }
 
-.bg-circle-outline a,
-a:hover,
-.media a:focus {
-    text-decoration: none !important;
-    outline: none;
-    color: #ececec;
+.footer-top .col-lg-2:hover .fa , .footer-top .col-lg-2:hover a{
+    color:#7dabdb;
 }
 
-.footer {
-    background: #EDEFF1;
-    height: auto;
-    padding-bottom: 30px;
-    position: relative;
-    width: 100%;
-    border-bottom: 1px solid #CCCCCC;
-    border-top: 1px solid #DDDDDD;
+.copyright{
+    background-color:#f0f0f0;
 }
 
-.footer p {
-    margin: 0;
+.copyright p{
+	font-size:12px;
+	padding:15px 0 10px 0;
 }
 
-.footer img {
-    max-width: 100%;
-}
-
-.footer h3 {
-    border-bottom: 1px solid #BAC1C8;
-    color: #54697E;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
-    padding: 40px 0 10px;
-    text-transform: uppercase;
-}
-
-.footer ul {
-    font-size: 13px;
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
-    margin-top: 15px;
-    color: #7F8C8D;
-}
-
-.footer ul li a {
-    padding: 0 0 5px 0;
-    display: block;
-}
-
-.footer a {
-    color: #78828D
-}
