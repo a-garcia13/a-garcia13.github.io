@@ -1,83 +1,729 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS, Bootwatch Litera Theme -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.2.1/lux/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <title>Alejandro Garcia CV</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Alejandro Garcia Flores</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+  <style type="text/css">
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #1C2331 !important;
+      }
+    }
+  </style>
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid">
-            <div class="page-header">
-                <h1 id="Titulo">Curriculum Vitae</h1>
-            </div>
-        </div>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <a href="https://a-garcia13.github.io" class="navbar-brand">Home</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarMenu">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="pages/ProfesionalExperience.html" class="nav-link">Profesional Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="pages/AcademicFormation.html" class="nav-link">Academic Formation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="pages/Proyects.Html" class="nav-link">Proyects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="pages/Interests.html" class="nav-link">Interests</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="pages/PersonalInformation.html" class="nav-link">Personal Information</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <div id="wrap">
-        <div id="main" class="container clear-top">
-            <h2 id="Bienvenida">Alejandro Garcia Flores</h1>
-            <p>Ingeniero de software</p>
-        </div>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="https://a-garcia13.github.io/" target="_blank">
+        <strong>AGF CV</strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://a-garcia13.github.io/">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#AcademicFormation">Academic Formation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#PersonalInformation">Personal Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ProfessionalExperience">Professional Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Proyects">Proyects</a>
+          </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.facebook.com/alejandro.garciaflores.7311" class="nav-link" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://twitter.com/alejandrogf95" class="nav-link" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/a-garcia13" class="nav-link border border-light rounded" target="_blank">
+              <i class="fab fa-github mr-2"></i>My Github
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
     </div>
-    <footer>
-        <div class="footer">
-            <div class="container">
-                <div class="col-lg-2 col-xs-12 text-center">
-                    <a href="https://twitter.com/alejandrogf95"><i class="fa fa-twitter fa-2x"></i>Twitter</a>
-                </div>
-                <div class="col-lg-2 col-xs-12 text-center">
-                    <a href="https://github.com/a-garcia13/a-garcia13.github.io"><i class="fa fa-github fa-2x"></i>Github</a>
-                </div>
-                <div class="col-lg-2 col-xs-12 text-center">
-                    <a href="https://a-garcia13.github.io/"><i class="fa fa-Home fa-2x"></i>Home</a>
-                </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+        <div class="view" style="background-image: url('assets/Bedroom-Game-room-dream.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Alejandro Garcia Flores</strong>
+              </h1>
+
+              <p>
+                <strong>Computer Engineer and Software Developer</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>Ongoing Masters Degree on Software Engineering. Universidad de los Andes, Bogotá, Colombia.</strong>
+              </p>
+
+              <a href="#AcademicFormation" class="btn btn-outline-white btn-lg">
+                Academic Formation
+                <i class="fas fa-graduation-cap ml-2"></i>
+              </a>
             </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
         </div>
-    </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
+      </div>
+      <!--/First slide-->
+
+      <!--Second slide-->
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('assets/bogota-skyline.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Software Development Experience</strong>
+              </h1>
+
+              <p>
+                <strong>Undergraduate Thesis on Software Arquitecture</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>API portfolio for an international database on missing pets</strong>
+              </p>
+
+              <a href="#ProfesionalExperience" class="btn btn-outline-white btn-lg">
+                Profesional Experience
+                <i class="fas fa-address-card"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Second slide-->
+
+      <!--Third slide-->
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('assets/Moncho-y-Bella.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Devoted pet and animal lover</strong>
+              </h1>
+
+              <p>
+                <strong>Moncho & Bella on background Picture</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>Virgilio Barco Public Library.</strong>
+              </p>
+
+              <a href="#Interests" class="btn btn-outline-white btn-lg">
+                Interests
+                <i class="fas fa-paw"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Third slide-->
+
+    </div>
+    <!--/.Slides-->
+
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+
+  </div>
+  <!--/.Carousel Wrapper-->
+
+  <!--Main layout-->
+  <main>
+
+    <div class="container">
+
+      <!--Section: Academic Formation-->
+      <section class="mt-5 wow fadeIn">
+        <a name="AcademicFormation"></a>
+        <hr class="my-5">
+        
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <img src="assets/Universidad-Andes.jpg" class="img-fluid z-depth-1-half" alt="">
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <!-- Main heading -->
+
+            <h3 class="h3 mb-3">Academic Formation:</h3>
+            <p><strong>Universidad de los Andes:</strong> Bachelor of Science on Computer Engineering (Graduated on
+              2019)</p>
+            <p><strong>Universidad de los Andes:</strong> Ongoing Masters Degree on Software Engineering (Expected
+              graduation on 2020)</p>
+            <hr>
+            <h4 class="h4 mb-4">Relevant Coursework: </h4>
+            <p><strong>Bachelor Coursework:</strong> Web Development, Software Architecture, Business Architecture.
+              <strong>Masters Coursework:</strong> Agile Software Development, Machine Learning Technics, Functional
+              Programing.</p>
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </section>
+      <!--/Section: Academic Formation-->
+      <a name="PersonalInformation"></a>
+
+      <hr class="my-5">
+
+      <!--Section: Personal Information-->
+      <section>
+
+        <h3 class="h3 text-center mb-5">Personal Information</h3>
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 px-4">
+
+            <!--First row-->
+
+
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-code fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Programing Languages: </h5>
+                <p class="grey-text"><strong>Java, Python</strong> Django, Ruby on Rails, JavaScript (Node.js, Angular, React), C++, Assembler, C#, Visual Basic, Arduino.</p>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <div style="height:30px"></div>
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-book fa-2x blue-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Other Software:</h5>
+                <p class="grey-text"><strong>Machine Learning: </strong>TensorFlow, Keras.
+                  <strong>Middleware: </strong>ZooKepeer, Kafka, MQTT, Auth0.
+                  <strong>Cloud Services: </strong> Amazon Web Services (AWS).
+                  <strong>Database Related: </strong> PostgreSQL, MySQL, Cassandra, Derby, Jboss, Mongo.
+                  <strong>Other Software: </strong>  Microsoft Office, Autodesk 3ds, Adobe Suite (Photoshop, illustrator, After Effects), Autocad, Bizagi.
+                </p>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <div style="height:30px"></div>
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-graduation-cap fa-2x cyan-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Communication Skills: </h5>
+                <p class="grey-text"><strong>Spanish </strong>(native speaker),
+                   <strong>English</strong> (professional proficiency).
+                  TOEFL Score 100/120 September 2011.</p>
+              </div>
+            </div>
+            <!--/Third row-->
+
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12">
+
+            <p class="h5 text-center mb-4">Proyecto Aplicación Viajeros:</p>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dhXYFcGfnxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Grid row-->
+
+      </section>
+      <!--/Section: Personal Information-->
+
+      <hr class="my-5">
+      <a name="Interests"></a>
+
+      <!--Section: Interests-->
+      <section>
+
+        <h2 class="my-5 h3 text-center">Interests</h2>
+
+        <!--First row-->
+        <div class="row features-small mb-5 mt-3 wow fadeIn">
+
+          <!--First column-->
+          <div class="col-lg-6 col-md-12">
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-paw fa-2x orange-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Pets and Animals:</h6>
+                <p class="grey-text"> I own several house pets, including 3 dogs and a cat.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-headset fa-2x orange-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Gamming:</h6>
+                <p class="grey-text">I've been an avid gammer, enjoying hardcore RPG titles such as Darksouls and NierAutomata.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-music fa-2x orange-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Music Taste:</h6>
+                <p class="grey-text">My favorite genre of music is Heavy Metal, my favorite artist is Opeth.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Third row-->
+
+            <!--Fourth row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-film fa-2x orange-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Film Fan:</h6>
+                <p class="grey-text">One of my favorite activities is watching movies, specially thought provoking, such
+                  as incepcion and gataca.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Fourth row-->
+          </div>
+          <!--/First column-->
+
+          <!--Third column-->
+          <div class="col-lg-6 col-md-12">
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x red-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Machine Learning Aficionado:</h6>
+                <p class="grey-text">I've develop several Machine Learning personal proyects, and I find the subject facinating.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x red-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Programer since highschool:</h6>
+                <p class="grey-text">During my highschool years I learned how to code in c++ and won several coding copetitions.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x red-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Software Arquitect: </h6>
+                <p class="grey-text">I've worked on several proyects as software Arquitect, including Nidoo App for parking in Bogota.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Third row-->
+
+            <!--Fourth row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x red-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Passionate Developer: </h6>
+                <p class="grey-text">In loved with coding, and avid programer</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Fourth row-->
+          </div>
+          <!--/Third column-->
+
+        </div>
+        <!--/First row-->
+
+      </section>
+      <!--/Section: Interests-->
+      <a name="ProfessionalExperience"></a>
+      <hr class="mb-5">
+
+      <!--Section: Professional Experience-->
+      <section>
+
+        <h2 class="my-5 h3 text-center">Professional Experience</h2>
+
+        <!--First row-->
+        <div class="row features-small mb-5 mt-3 wow fadeIn">
+
+          <!--First column-->
+          <div class="col-lg-6 col-md-12">
+            <h3 class="my-5 h3 text-left">Academical (July 2016 - October 2018)</h3>
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x cyan-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Designer and Marketing Manager:</h6>
+                <p class="grey-text"> In charge of publicity planning and development.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x cyan-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Costumer Support:</h6>
+                <p class="grey-text">In charge of customer support with different colleges that used the service.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x cyan-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Technical Support:</h6>
+                <p class="grey-text">In charge of managing server functionality and technical issues.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Third row-->
+          </div>
+          <!--/First column-->
+
+          <!--Third column-->
+          <div class="col-lg-6 col-md-12">
+            <h3 class="my-5 h3 text-right">Universidad de los Andes (January 2015 - June 2015)</h3>
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x blue-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Teacher:</h6>
+                <p class="grey-text">Work as support teacher for programing classes</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x blue-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Grader:</h6>
+                <p class="grey-text">Grade practical exams and lab homework.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x blue-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Support: </h6>
+                <p class="grey-text">Help students with questions and supervised exams.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Third row-->
+          </div>
+          <!--/Third column-->
+
+        </div>
+        <!--/First row-->
+
+      </section>
+      <!--/Section: Professional Experience-->
+      <a name="Proyects"></a>
+      <hr class="mb-5">
+
+      <!--Section: Proyects-->
+      <section>
+
+        <h2 class="my-5 h3 text-center">Proyects</h2>
+        <!--First row-->
+        <div class="row features-small mt-5 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fab fa-bitcoin fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2 pl-3">
+                <h5 class="feature-title font-bold mb-1">Bitcoin Predictor and Investor:</h5>
+                <p class="grey-text mt-2"> 4th semester investigation proyect where Machine learning was used to predict Bitcoin prices with lstm networks and Deep-Q learning investing.
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-paw fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Pets Proyect (Undergraduate Thesis):</h5>
+                <p class="grey-text mt-2">API portfolio for an international database on missing pets
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-dollar-sign fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Forex Investor:</h5>
+                <p class="grey-text mt-2">Homemade proyect using Java to invest traditionally in an automated way over forex.
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-plane fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Traveller App:</h5>
+                <p class="grey-text mt-2"> Web-based app to plan travells arround the world.
+                  it.
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/First row-->
+      </section>
+      <!--Section: More-->
+
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+    <!--Call to action-->
+    <div class="pt-4">
+      <a class="btn btn-outline-white" href="https://github.com/a-garcia13" target="_blank"
+        role="button">Github
+        <i class="fas fa-github ml-2"></i>
+      </a>
+      <a class="btn btn-outline-white" href="https://twitter.com/alejandrogf95" target="_blank" role="button">Twitter
+        <i class="fas fa-twitter ml-2"></i>
+      </a>
+    </div>
+    <!--/.Call to action-->
+
+    <hr class="my-4">
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2019 Copyright:
+      <a href="https://github.com/a-garcia13" target="_blank"> Alejandro Garcia Flores </a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
 </body>
 
 </html>
